@@ -58,9 +58,8 @@ public:
 
     void ordenarDescendente() {
         while (size > 0) {
-            cout << eliminarMax() << " ";
+            cout << eliminarMax() << endl;
         }
-        cout << endl;
     }
 
     int padre(int i) { return (i - 1) / 2; }
